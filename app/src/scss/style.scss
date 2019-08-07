@@ -1,0 +1,15 @@
+// Import Styles
+
+@import 'reset';
+@import 'theme';
+@import 'helpers';
+@import 'hero';
+@import 'typography';
+@import 'buttons';
+
+// Main Styles
+body {
+  font-family: $regular;
+  background: $black;
+  color: $white;
+}

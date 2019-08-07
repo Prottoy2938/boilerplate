@@ -1,0 +1,28 @@
+h1, .h1,
+h2, .h2,
+h3, .h3 {
+  font-family: $bold;
+}
+
+h1, .h1 {
+  letter-spacing: -3px;
+  line-height: 1.4;
+  font-size: 60px;
+  color: $white;
+}
+
+h2, .h2 {
+  letter-spacing: -2px;
+  line-height: 1.8;
+  font-size: 30px;
+}
+
+h3, .h3 {
+  letter-spacing: -1px;
+  font-size: 24px;
+}
+
+p, .p, a {
+  font-family: $regular;
+  font-size: 18px;
+}

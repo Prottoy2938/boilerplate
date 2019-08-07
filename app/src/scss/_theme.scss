@@ -1,0 +1,21 @@
+// Colors
+$black: #000;
+$white: #fff;
+$primary: #06f;
+
+// Fonts
+@font-face {
+    font-family: 'colfax-regular';
+    src: url('../fonts/colfax-regular.woff') format('woff'), url('../fonts/colfax-regular.woff2') format('woff2');
+}
+@font-face {
+    font-family: 'colfax-bold';
+    src: url('../fonts/colfax-bold.woff') format('woff'), url('../fonts/colfax-bold.woff2') format('woff2');
+}
+$regular: 'colfax-regular', sans-serif;
+$bold: 'colfax-bold', sans-serif;
+
+// Highlight selection
+*::-webkit-selection { background-color: $primary; color: $white; }
+*::-moz-selection { background-color: $primary; color: $white; }
+*::selection { background-color: $primary; color: $white; }

@@ -1,0 +1,12 @@
+.hero {
+  flex-direction: column;
+  @extend .flex-center;
+  position: relative;
+  text-align: center;
+  height: 100vh;
+  width: 100%;
+}
+
+.hero-title {
+  width: 500px;
+}
