@@ -41,21 +41,11 @@ iframe, video, img {
 input, textarea,
 select, button {
   -webkit-appearance: none;
-  appearance: none;
   border-radius: 0;
+  appearance: none;
   color: inherit;
   font: inherit;
   outline: none;
   border: none;
   &:hover, &:active, &:focus { outline: none; }
 }
-
-input:-webkit-autofill {
-  -webkit-box-shadow: 0 0 0 40px #ffffff inset !important;
-  -webkit-text-fill-color: #000000 !important;
-}
-
-::-webkit-input-placeholder { color: #000; }
-:-ms-input-placeholder { color: #000; }
-::-moz-placeholder { color: #000; }
-:-moz-placeholder { color: #000; }
