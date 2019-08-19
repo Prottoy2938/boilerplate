@@ -19,7 +19,9 @@
 ::-webkit-scrollbar { display: none; }
 
 html, body {
+  -ms-overflow-style: none;
   min-height: 100%;
+  overflow: auto;
   width: 100%;
 }
 
@@ -53,4 +55,13 @@ select, button {
 button {
   background: none;
   cursor: pointer;
+}
+
+img {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -webkit-user-drag: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 }

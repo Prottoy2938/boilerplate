@@ -4,11 +4,20 @@ $bouncy: all .4s cubic-bezier(0.4,2,0.68,1);
 $smooth: all .4s ease;
 
 // Border Radii
-$rounded-most: 12px;
-$rounded-more: 8px;
-$rounded: 4px;
+$rounded-xs: 2px;
+$rounded-sm: 4px;
+$rounded-md: 6px;
+$rounded-lg: 12px;
+$rounded-xl: 18px;
 $circle: 50%;
 $pill: 100px;
+
+// Box Shadows
+$shadow-xs: 0 6px 12px rgba($black, 0.2);
+$shadow-sm: 0 10px 20px rgba($black, 0.2);
+$shadow-md: 0 20px 40px rgba($black, 0.2);
+$shadow-lg: 0 40px 80px rgba($black, 0.2);
+$shadow-xl: 0 100px 100px rgba($black, 0.2);
 
 // Centering
 .flex-center {

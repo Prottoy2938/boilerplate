@@ -1,17 +1,21 @@
 // Colors
 $black: #000;
 $white: #fff;
+$off-white: #f2f3f5;
+$grey: #808c99;
 $primary: #06f;
 $gradient: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%);
 
 // Fonts
 @font-face {
     font-family: 'colfax-regular';
-    src: url('../fonts/colfax-regular.woff') format('woff'), url('../fonts/colfax-regular.woff2') format('woff2');
+    src: url('../fonts/colfax-regular.woff') format('woff'),
+         url('../fonts/colfax-regular.woff2') format('woff2');
 }
 @font-face {
     font-family: 'colfax-bold';
-    src: url('../fonts/colfax-bold.woff') format('woff'), url('../fonts/colfax-bold.woff2') format('woff2');
+    src: url('../fonts/colfax-bold.woff') format('woff'),
+         url('../fonts/colfax-bold.woff2') format('woff2');
 }
 $regular: 'colfax-regular', sans-serif;
 $bold: 'colfax-bold', sans-serif;
